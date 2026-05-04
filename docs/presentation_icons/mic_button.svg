@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ikona przycisku PTT - duży mikrofon z rzeczywistymi kolorami aplikacji -->
+<!-- Kolory: Turkusowe tło (#1C7E87), biały mikrofon, czerwone fale (#DE2A1C) -->
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="512" height="512"
+     viewBox="0 0 108 108">
+
+    <!-- Tło okrągłe - turkusowy primary color -->
+    <circle cx="54" cy="54" r="50" fill="#1C7E87"/>
+
+    <!-- Duży mikrofon -->
+    <g>
+        <!-- Korpus mikrofonu - powiększony, biały -->
+        <path fill="#FFFFFF"
+              d="M54,20c-9,0 -16,7 -16,16v20c0,9 7,16 16,16 9,0 16,-7 16,-16V36c0,-9 -7,-16 -16,-16z"/>
+
+        <!-- Podstawka mikrofonu - biała -->
+        <path fill="#FFFFFF"
+              d="M47,68h14v12h-14z"/>
+
+        <!-- Podstawa stojaka - biała -->
+        <path fill="#FFFFFF"
+              d="M42,84h24v8h-24z"/>
+
+        <!-- Lewa fala dźwiękowa - czerwona -->
+        <path fill="none"
+              stroke="#DE2A1C"
+              stroke-width="4"
+              stroke-opacity="1"
+              d="M28,40 L28,52 C28,64 38,72 46,76"/>
+
+        <!-- Prawa fala dźwiękowa - czerwona -->
+        <path fill="none"
+              stroke="#DE2A1C"
+              stroke-width="4"
+              stroke-opacity="1"
+              d="M80,40 L80,52 C80,64 70,72 62,76"/>
+    </g>
+</svg>
+

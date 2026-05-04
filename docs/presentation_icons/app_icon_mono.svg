@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ikona monochromatyczna - dla themed icons -->
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="512" height="512"
+     viewBox="0 0 108 108">
+
+    <!-- Jednolity kolor - łatwo zmienić w Canva -->
+    <g transform="translate(0, 6)">
+        <!-- Korpus mikrofonu -->
+        <path fill="#000000"
+              d="M54,20c-6,0 -10,4 -10,10v18c0,6 4,10 10,10s10-4 10-10V30c0-6-4-10-10-10z"/>
+
+        <!-- Stojak -->
+        <path fill="#000000"
+              d="M48,54h12v8H48z"/>
+
+        <!-- Podstawa -->
+        <path fill="#000000"
+              d="M46,64h16v6H46z"/>
+    </g>
+</svg>
+

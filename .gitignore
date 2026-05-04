@@ -1,0 +1,46 @@
+# Gradle
+.gradle/
+/build/
+**/build/
+
+# Local configuration
+/local.properties
+/.idea/
+*.iml
+
+# MacOS
+.DS_Store
+
+# Log files
+*.log
+
+# Android Studio captures
+captures/
+
+# APK
+*.apk
+
+# Keystore
+*.jks
+*.keystore
+
+# Generated files
+/app/src/main/res/generated/
+
+# Others
+*.class
+*.jar
+*.war
+
+# Ignore Jetifier cache
+.android/
+
+# Kotlin
+.gradle-cache/
+
+# OS generated files
+Thumbs.db
+
+# Exclude screenshots used for docs
+docs/screenshots/
+

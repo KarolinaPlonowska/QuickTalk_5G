@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Powiększona ikona mikrofonu dla przycisku PTT -->
+    <group android:translateY="0">
+        <!-- Korpus mikrofonu -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,20c-9,0 -16,7 -16,16v20c0,9 7,16 16,16 9,0 16,-7 16,-16V36c0,-9 -7,-16 -16,-16z"/>
+
+        <!-- Podstawka mikrofonu -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M47,68h14v12h-14z"/>
+
+        <!-- Podstawa stojaka -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M42,84h24v8h-24z"/>
+
+        <!-- Lewa fala dźwiękowa -->
+        <path
+            android:fillColor="@android:color/white"
+            android:fillAlpha="0.7"
+            android:pathData="M28,40 L28,52 C28,64 38,72 46,76"
+            android:strokeWidth="4"
+            android:strokeColor="@android:color/white"
+            android:strokeAlpha="0.7"/>
+
+        <!-- Prawa fala dźwiękowa -->
+        <path
+            android:fillColor="@android:color/white"
+            android:fillAlpha="0.7"
+            android:pathData="M80,40 L80,52 C80,64 70,72 62,76"
+            android:strokeWidth="4"
+            android:strokeColor="@android:color/white"
+            android:strokeAlpha="0.7"/>
+    </group>
+</vector>
+

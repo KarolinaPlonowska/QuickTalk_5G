@@ -1,0 +1,24 @@
+<resources>
+    <style name="Theme.QuickTalk" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Core branding colors mapped to project color resources -->
+        <item name="colorPrimary">@color/qt_primary</item>
+        <item name="colorOnPrimary">@color/qt_on_badge</item>
+        <item name="colorPrimaryContainer">@color/qt_primary</item>
+        <item name="colorOnPrimaryContainer">@color/qt_on_badge</item>
+
+        <item name="colorSecondary">@color/qt_secondary</item>
+        <item name="colorOnSecondary">@color/qt_on_badge</item>
+
+        <!-- Surface/text colors -->
+        <item name="colorSurface">@color/qt_surface</item>
+        <item name="colorOnSurface">@color/qt_text</item>
+
+        <!-- Use android attributes for background/text to avoid missing attr issues -->
+        <item name="android:windowBackground">@color/qt_surface</item>
+        <item name="android:textColorPrimary">@color/qt_text</item>
+
+        <!-- status bar / navigation bar accent (optional) -->
+        <item name="android:statusBarColor">@color/qt_surface</item>
+        <item name="android:navigationBarColor">@color/qt_surface</item>
+    </style>
+</resources>

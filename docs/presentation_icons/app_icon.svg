@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ikona aplikacji QuickTalk 5G - dokładna kopia z aplikacji -->
+<!-- Kolory: Ciemnozielone tło (#0F3C42), biały mikrofon, czerwone fale (#DE2A1C) -->
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="512" height="512"
+     viewBox="0 0 108 108">
+
+    <!-- Tło - ciemnozielony/cyjan (jak w aplikacji) -->
+    <rect width="108" height="108" fill="#0F3C42" rx="16"/>
+
+    <!-- Ikona mikrofonu - przesunięta o 1 piksel w dół dla wycentrowania -->
+    <g transform="translate(0, 1)">
+        <!-- Korpus mikrofonu - biały -->
+        <path fill="#FFFFFF"
+              d="M54,26c-7,0 -12,5 -12,12v12c0,7 5,12 12,12 7,0 12,-5 12,-12V38c0,-7 -5,-12 -12,-12z"/>
+
+        <!-- Stojak mikrofonu - biały -->
+        <path fill="#FFFFFF"
+              d="M49,64h10v8h-10z"/>
+
+        <!-- Podstawa - biała -->
+        <path fill="#FFFFFF"
+              d="M44,76h20v6h-20z"/>
+
+        <!-- Lewa fala dźwiękowa - czerwona -->
+        <path fill="#DE2A1C"
+              d="M30,44c0,9 7,16 16,16"/>
+
+        <!-- Prawa fala dźwiękowa - czerwona -->
+        <path fill="#DE2A1C"
+              d="M78,44c0,9 -7,16 -16,16"/>
+    </g>
+</svg>
+

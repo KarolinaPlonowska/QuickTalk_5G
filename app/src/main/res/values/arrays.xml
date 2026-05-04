@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Przykładowe tablice zasobów używane w UI (możesz je zmodyfikować/usunąć) -->
+    <string-array name="example_devices">
+        <item>Device A</item>
+        <item>Device B</item>
+        <item>Device C</item>
+    </string-array>
+
+    <integer-array name="example_ports">
+        <item>5000</item>
+        <item>6000</item>
+        <item>7000</item>
+    </integer-array>
+
+    <!-- Jeżeli potrzebujesz tablicy stringów z etykietami -->
+    <string-array name="device_types">
+        <item>Server</item>
+        <item>Client</item>
+        <item>Gateway</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <color name="qt_primary">#1C7E87</color>
+    <color name="qt_secondary">#DE2A1C</color>
+    <color name="qt_surface">#F5F6F8</color>
+    <color name="qt_text">#22303C</color>
+    <color name="ic_bg">#0F3C42</color>
+    <!-- badge/background colors that have night variants -->
+    <color name="qt_badge_bg">#6E6E6E</color>
+    <color name="qt_on_badge">#FFFFFF</color>
+</resources>

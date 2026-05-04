@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Plik manifestu root projektu użyty tylko jako placeholder na czas budowania.
+         Nie powinien zawierać atrybutu `package` (namespace powinno się ustawiać w module/app build.gradle).
+         Jeśli możesz, usuń ten plik i pozostaw manifesty tylko w modulech (np. app/src/main/AndroidManifest.xml).
+    -->
+</manifest>

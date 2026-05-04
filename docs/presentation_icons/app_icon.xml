@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Przeniesiono wszystkie ścieżki do grupy z translateY, żeby ikonka była wizualnie wycentrowana -->
+    <group android:translateY="1">
+        <path android:fillColor="#FFFFFF" android:pathData="M54,26c-7,0 -12,5 -12,12v12c0,7 5,12 12,12 7,0 12,-5 12,-12V38c0,-7 -5,-12 -12,-12z"/>
+        <path android:fillColor="#FFFFFF" android:pathData="M49,64h10v8h-10z"/>
+        <path android:fillColor="#FFFFFF" android:pathData="M44,76h20v6h-20z"/>
+        <path android:fillColor="@color/qt_secondary" android:pathData="M78,44c0,9 -7,16 -16,16"/>
+        <path android:fillColor="@color/qt_secondary" android:pathData="M30,44c0,9 7,16 16,16"/>
+    </group>
+</vector>

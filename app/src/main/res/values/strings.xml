@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">QuickTalk 5G </string>
+    <string name="ptt_hold">PRZYTRZYMAJ, ABY MÓWIĆ</string>
+    <string name="status_listening">Status: słucham…</string>
+    <string name="status_tx">Status: NADAWANIE → %1$s:%2$d</string>
+    <string name="hint_ip">IP partnera</string>
+    <string name="hint_port">Port</string>
+    <string name="dark_mode_label">Tryb ciemny</string>
+    <string name="rx_label">RX</string>
+    <string name="rx_counter_format">RX: %1$d</string>
+    <string name="rx_counter_initial">RX: 0</string>
+    <string name="default_port_str">6000</string>
+    <string name="devices_button_label">Znalezione urządzenia</string>
+    <string name="devices_dialog_title">Wybierz urządzenie</string>
+    <string name="devices_empty">Brak znalezionych urządzeń</string>
+    <string name="device_icon_desc">Ikona urządzenia</string>
+    <string name="devices_button_label_count">Znalezione urządzenia (%1$d)</string>
+</resources>

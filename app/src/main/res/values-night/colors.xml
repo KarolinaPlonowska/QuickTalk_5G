@@ -1,0 +1,10 @@
+<resources>
+    <color name="qt_primary">#70C8CC</color>
+    <color name="qt_secondary">#FF6B60</color>
+    <color name="qt_surface">#121212</color>
+    <color name="qt_text">#E6EEF2</color>
+    <color name="ic_bg">#052024</color>
+    <color name="qt_badge_bg">#37474F</color>
+    <color name="qt_on_badge">#FFFFFF</color>
+</resources>
+

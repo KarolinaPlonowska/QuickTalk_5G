@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Monochromatyczna maska używana jako monochrome tag dla adaptive icon -->
+    <group android:translateY="6">
+        <path android:fillColor="#FF000000" android:pathData="M54,20c-6,0 -10,4 -10,10v18c0,6 4,10 10,10s10-4 10-10V30c0-6-4-10-10-10z"/>
+        <path android:fillColor="#FF000000" android:pathData="M48,54h12v8H48z"/>
+        <path android:fillColor="#FF000000" android:pathData="M46,64h16v6H46z"/>
+    </group>
+</vector>
+
