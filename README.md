@@ -1,60 +1,39 @@
 # QuickTalk 5G — Push‑To‑Talk (PTT) Android
 
-Autor: Karolina Płonowska / Author: Karolina Płonowska
+Author: Karolina Płonowska
 ---
 
-## Krótkie wprowadzenie / Short introduction
-
-QuickTalk 5G to aplikacja mobilna typu Push‑To‑Talk (PTT) napisana w Kotlinie dla platformy Android. Umożliwia szybki, niskolatencyjny przesył dźwięku między urządzeniami w sieci lokalnej (PTT) oraz prosty tryb VoIP‑like.
+## Short introduction
 
 QuickTalk 5G is an Android Push‑To‑Talk (PTT) app written in Kotlin. It enables low‑latency audio transmission between devices on a local network (PTT) and also provides a simple VoIP‑like mode.
 
 ---
 
-## Najważniejsze funkcje / Key features
+## Key features
 
-- Push‑To‑Talk (PTT): naciśnij i mów, puszczenie kończy nadawanie (press to talk, release to stop),
+- Push‑To‑Talk (PTT): press to talk, release to stop,
 - VoIP‑like UDP streaming,
-- Wykrywanie urządzeń w sieci i lista do wyboru (Network device discovery with user selection list),
-- Tryb jasny / ciemny (Light / Dark mode) z przełącznikiem (Light / Dark themes with toggle),
-- Obsługa uprawnień mikrofonu (Microphone runtime permissions handling).
+- Network device discovery with user selection list,
+- Light / Dark themes with toggle,
+- Microphone runtime permissions handling.
 
 ---
 
-## Struktura projektu — kluczowe pliki / Project structure — key files
+## Project structure — key files
 
-- `app/src/main/java/com/pans/quicktalk5g/AudioSender.kt` — nagrywanie mikrofonu, fragmentacja i wysyłka UDP (microphone capture, fragmentation and UDP send),
-- `app/src/main/java/com/pans/quicktalk5g/AudioReceiver.kt` — odbiór UDP i odtwarzanie przez `AudioTrack` (UDP receive and playback via `AudioTrack`),
-- `app/src/main/AndroidManifest.xml` — deklaracje uprawnień i aktywności (permissions & activities),
-- `app/src/main/res/` — layouty, ikony, style i kolory (layouts, icons, styles, colors),
-- `app/build.gradle`, `build.gradle` — konfiguracja budowania (build configuration).
+- `app/src/main/java/com/pans/quicktalk5g/AudioSender.kt` — microphone capture, fragmentation and UDP send,
+- `app/src/main/java/com/pans/quicktalk5g/AudioReceiver.kt` — UDP receive and playback via `AudioTrack`,
+- `app/src/main/AndroidManifest.xml` — permissions & activities,
+- `app/src/main/res/` — layouts, icons, styles, colors,
+- `app/build.gradle`, `build.gradle` — build configuration.
 
 ---
 
-## Wymagania / Requirements
+## Requirements
 
 - Android Studio + Android SDK (Platform‑tools, adb),
-- Gradle (wersja określona w `gradle/wrapper/` i `build.gradle`) (see `gradle/wrapper/` and `build.gradle` for exact versions),
-- Java / JDK zgodna z konfiguracją projektu (matching project configuration).
-
----
-
-## Jak zbudować i uruchomić
-
-1. Otwórz projekt w Android Studio i pozwól na synchronizację Gradle.
-2. Upewnij się, że `adb` i SDK są dostępne w PATH (na macOS dodaj do `~/.zshrc`).
-3. W terminalu projektu uruchom:
-
-```bash
-./gradlew assembleDebug
-./gradlew installDebug   # wymaga podłączonego urządzenia lub emulatora
-```
-
-4. Alternatywnie: zainstaluj apk ręcznie:
-
-```bash
-adb install -r app/build/outputs/apk/debug/app-debug.apk
-```
+- Gradle see `gradle/wrapper/` and `build.gradle` for exact versions,
+- Java / JDK matching project configuration.
 
 ---
 
@@ -77,7 +56,7 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 
 ---
 
-## Prezentacja / Demo
+## Demo
 
 
 <img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/74ea9147-11ed-4294-a948-f76896db2292" />
