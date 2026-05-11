@@ -1,10 +1,5 @@
 # QuickTalk 5G — Push‑To‑Talk (PTT) Android
 
-Author: Karolina Płonowska
----
-
-## Short introduction
-
 QuickTalk 5G is an Android Push‑To‑Talk (PTT) app written in Kotlin. It enables low‑latency audio transmission between devices on a local network (PTT) and also provides a simple VoIP‑like mode.
 
 ---
